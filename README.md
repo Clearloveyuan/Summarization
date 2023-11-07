@@ -17,7 +17,7 @@ tar -zxvf XSUM-EMNLP18-Summary-Data-Original.tar.gz
 
 ```
 wget https://github.com/EdinburghNLP/XSum/raw/master/XSum-Dataset/XSum-TRAINING-DEV-TEST-SPLIT-90-5-5.json 
-python ../xsum/xsum_split.py bbc-summary-data XSum-TRAINING-DEV-TEST-SPLIT-90-5-5.json xsum
+python xsum_split.py bbc-summary-data XSum-TRAINING-DEV-TEST-SPLIT-90-5-5.json xsum
 ```
 
 3. Use the dataprocess.ipynb to save the dataset in json version
